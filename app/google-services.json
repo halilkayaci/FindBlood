@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "42723166781",
+    "firebase_url": "https://findblood-bc7ec.firebaseio.com",
+    "project_id": "findblood-bc7ec",
+    "storage_bucket": "findblood-bc7ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42723166781:android:87c814971ffd2614",
+        "android_client_info": {
+          "package_name": "com.info.findblood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42723166781-ai7770rbbshuonvo241sms2bknfokia7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.info.findblood",
+            "certificate_hash": "34368b9e72505189ff32e53a82642963bc09f381"
+          }
+        },
+        {
+          "client_id": "42723166781-3ug8lld0psmgu91g6v0rdv3an0e5qpjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY_jYRWdKeAATv9PO0mA7QKuVTISZvFJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42723166781-3ug8lld0psmgu91g6v0rdv3an0e5qpjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

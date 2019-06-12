@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">FindBlood</string>
+
+    <string name="search">Kan Grubu Ara</string>
+
+    <string name="nameSurname">Ad - Soyad</string>
+    <string name="phone">Telefon</string>
+    <array name="bloodGroup">
+        <item>
+            <b>Kan Grubu Seçiniz</b>
+        </item>
+        <item>
+            <b>A RH+</b>
+        </item>
+        <item>
+            <b>A RH-</b>
+        </item>
+        <item>
+            <b>B RH+</b>
+        </item>
+        <item>
+            <b>B RH-</b>
+        </item>
+        <item>
+            <b>AB RH+</b>
+        </item>
+        <item>
+            <b>AB RH-</b>
+        </item>
+        <item>
+            <b>0 RH+</b>
+        </item>
+        <item>
+            <b>0 RH-</b>
+        </item>
+    </array>
+
+    <string name="call">Ara</string>
+    <string name="edit">Düzenle</string>
+
+    <string name="logOut">Çıkış</string>
+
+    <string name="email">E-Posta</string>
+    <string name="password">Sifre</string>
+    <string name="Register">Kayıt Ol</string>
+    <string name="Login">Giris Yap</string>
+    <string name="other">VEYA</string>
+    <string name="desc">bloodImage</string>
+    <string name="registerText">Bir hesabın yok mu ? Kaydol</string>
+    <string name="forgotPass">Sifremi Unuttum ?</string>
+
+
+</resources>
