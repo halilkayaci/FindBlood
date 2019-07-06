@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
                                 donorsList.clear();
                                 addDonor();
                             }
-                            showCards();
+                            //showCards();
                         }
                     }
                 });
