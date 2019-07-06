@@ -250,11 +250,13 @@ public class MainActivity extends AppCompatActivity {
     private void getDonors(){
         firebaseUser = auth.getCurrentUser();
         databaseReference = databaseReference.child("users").child(firebaseUser.getUid()).child("donors");
+        donorsList.clear();
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                donorsList.clear();
+
                 if(dataSnapshot.exists()){
+                    donorsList.clear();
                     for(DataSnapshot snapshot : dataSnapshot.getChildren()){
                         Donors donor = snapshot.getValue(Donors.class);
                         donorsList.add(donor);
@@ -263,7 +265,6 @@ public class MainActivity extends AppCompatActivity {
                 dialog.dismiss();
                 // Veri tabanindan kullanici adina gore veriler cekilip ecycler view dolduruluyor.
                 showCards();
-
             }
 
             @Override
